@@ -1,4 +1,4 @@
-import { BetaAnalyticsDataClient } from "@google-analytics/data"
+import { BetaAnalyticsDataClient as AnalyticsDataClient } from "@google-analytics/data"
 import { ModuleOptions } from "../../module"
 import { AnalyticsReport, AnalyticsSummary } from "../types"
 import { createStorage } from "unstorage"
@@ -31,7 +31,7 @@ export const useGoogleAnalyticsDataReports = async (config: any, analyticsCache:
         throw new Error("Unable to locate Google Analytics credentials")
     }
 
-    const analyticsDataClient = new BetaAnalyticsDataClient(opts)
+    const analyticsDataClient = new AnalyticsDataClient(opts)
     await storage.setItem("cache:analyticsDataCacheRefresh", false)
     await storage.setItem("cache:analyticsDataCacheProcessing", true)
     const summary: AnalyticsSummary = {}
