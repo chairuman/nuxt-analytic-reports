@@ -1,5 +1,8 @@
 # Nuxt Analytic Reports Module
 
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
 This SSR-enabled Nuxt module allows running of reports via the Google Analytics Data API, and includes pre-defined
@@ -176,6 +179,18 @@ npm run release
 ```
 
 <!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-analytic-reports/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+
+[npm-version-href]: https://npmjs.com/package/nuxt-analytic-reports
+
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-analytic-reports.svg?style=flat&colorA=18181B&colorB=28CF8D
+
+[npm-downloads-href]: https://npmjs.com/package/nuxt-analytic-reports
+
+[license-src]: https://img.shields.io/npm/l/nuxt-analytic-reports.svg?style=flat&colorA=18181B&colorB=28CF8D
+
+[license-href]: https://npmjs.com/package/nuxt-analytic-reports
+
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 
 [nuxt-href]: https://nuxt.com
