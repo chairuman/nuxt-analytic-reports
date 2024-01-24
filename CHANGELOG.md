@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.0.3
+
+[compare changes](https://github.com/chairuman/nuxt-analytic-reports/compare/v1.0.2...v1.0.3)
+
+### 🩹 Fixes
+
+- **error:** Fixing google analytics dependency error ([e446fcb](https://github.com/chairuman/nuxt-analytic-reports/commit/e446fcb))
+
+### ❤️ Contributors
+
+- Chairuman <chairuman.thahir@gmail.com>
+
 ## v1.0.2
 
 [compare changes](https://github.com/chairuman/nuxt-analytic-reports/compare/v1.0.1...v1.0.2)
